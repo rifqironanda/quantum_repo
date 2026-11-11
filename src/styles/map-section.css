@@ -1,0 +1,119 @@
+.atlas {
+  --atlas-bg: #071523;
+  --atlas-border: #29485a;
+  --atlas-text: #e2edf7;
+  --atlas-accent: #60efdf;
+  background: var(--atlas-bg);
+  color: var(--atlas-text);
+  border: 1px solid var(--atlas-border);
+  border-radius: 18px;
+}
+.atlas-toolbar, .atlas-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 18px;
+}
+.atlas-toolbar { border-bottom: 1px solid var(--atlas-border); }
+.atlas-regions { display: flex; gap: 6px; flex-wrap: wrap; }
+.atlas button, .atlas select {
+  color: var(--atlas-text);
+  background: #102b3a;
+  border: 1px solid var(--atlas-border);
+  border-radius: 7px;
+  padding: 8px 10px;
+}
+.atlas button[aria-pressed="true"]:not(.atlas-marker) {
+  color: #041e23;
+  background: var(--atlas-accent);
+}
+.atlas-search { display: flex; align-items: center; gap: 8px; font-size: .84rem; }
+.atlas-content.has-profile {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(245px, 30%);
+}
+.atlas-map { position: relative; min-width: 0; align-self: start; background: radial-gradient(ellipse, #102d3e, #071523 74%); }
+.atlas-map svg { width: 100%; height: auto; display: block; }
+.atlas-grid { fill: none; stroke: #244352; stroke-width: .55px; vector-effect: non-scaling-stroke; }
+.atlas-country { fill: #163544; stroke: #395c6e; stroke-width: .6px; vector-effect: non-scaling-stroke; }
+.atlas-country.is-mapped { fill: #1c5260; stroke: #408f94; }
+.atlas-country.is-selected { fill: #237878; stroke: var(--atlas-accent); stroke-width: 1px; }
+.atlas-point { position: absolute; inset: 0; pointer-events: none; }
+.atlas-point.has-tooltip { z-index: 2; }
+.atlas .atlas-marker {
+  position: absolute;
+  left: var(--point-x);
+  top: var(--point-y);
+  transform: translate(-50%, -50%);
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  display: grid;
+  place-items: center;
+  pointer-events: auto;
+  cursor: pointer;
+}
+.atlas-marker span, .atlas-legend-point {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--atlas-accent);
+  box-shadow: 0 0 0 4px #60efdf45, 0 0 12px #60efdf77;
+}
+.atlas-marker:hover span, .atlas-marker:focus-visible span, .atlas-marker[aria-pressed="true"] span {
+  background: #fff;
+  box-shadow: 0 0 0 5px #60efdf85, 0 0 14px #60efdf;
+}
+.atlas-tooltip {
+  position: absolute;
+  left: clamp(115px, var(--tooltip-x), calc(100% - 115px));
+  top: var(--point-y);
+  width: min(220px, 90%);
+  transform: translate(-50%, calc(-100% - 15px));
+  display: grid;
+  gap: 5px;
+  background: #0d2434;
+  border: 1px solid #4a8a91;
+  border-radius: 9px;
+  box-shadow: 0 8px 20px #0007;
+  padding: 11px;
+  font-size: .81rem;
+}
+.atlas-tooltip strong { color: var(--atlas-accent); font-size: .95rem; }
+.atlas-tooltip small { color: #afc7d9; }
+.atlas-point.tooltip-below .atlas-tooltip { transform: translate(-50%, 15px); }
+.atlas-profile {
+  background: #102737;
+  border-left: 1px solid var(--atlas-border);
+  padding: 15px 16px;
+  min-width: 0;
+  max-height: 460px;
+  overflow: auto;
+}
+.atlas-profile-heading { display: flex; justify-content: space-between; gap: 8px; align-items: start; }
+.atlas-kicker { color: var(--atlas-accent); font-size: .77rem; }
+.atlas-profile h3 { font-size: 1.4rem; }
+.atlas-profile section { margin-top: 14px; font-size: .86rem; }
+.atlas-profile h4 { color: var(--atlas-accent); margin-bottom: 5px; }
+.atlas-profile ul { padding-inline-start: 16px; }
+.atlas-projects li + li { margin-top: 9px; }
+.atlas-projects small { margin-right: 8px; }
+.atlas a { color: #a0f6ea; text-decoration: underline; }
+.atlas-legend {
+  justify-content: flex-start;
+  border-top: 1px solid var(--atlas-border);
+  font-size: .77rem;
+}
+.atlas-legend span { display: inline-flex; gap: 8px; align-items: center; }
+.atlas-legend-fill { width: 12px; height: 9px; border: 1px solid #547c90; background: #163544; }
+@media (max-width: 700px) {
+  .atlas-content.has-profile { grid-template-columns: 1fr; }
+  .atlas-profile { max-height: none; border-left: 0; border-top: 1px solid var(--atlas-border); }
+  .atlas .atlas-marker { width: 26px; height: 26px; }
+}

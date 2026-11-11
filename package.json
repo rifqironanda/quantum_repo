@@ -13,9 +13,12 @@
     "test": "node --test"
   },
   "dependencies": {
+    "d3-geo": "3.1.2",
     "papaparse": "5.5.3",
     "react": "19.1.1",
-    "react-dom": "19.1.1"
+    "react-dom": "19.1.1",
+    "topojson-client": "3.1.0",
+    "world-atlas": "2.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "4.7.0",

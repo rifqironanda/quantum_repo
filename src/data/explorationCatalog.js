@@ -1,16 +1,11 @@
 import content from './ketahanan-kuantum.json';
 import banks from './utilizationBanks.json';
-import hardware from '../assets/hero-a.jpg';
-import chip from '../assets/quantum-evolution/sycamore.webp';
-import world from '../assets/hero-b.jpg';
-import guide from '../assets/resilience/panduan.svg';
-import standard from '../assets/resilience/standar.svg';
-import benchmark from '../assets/resilience/respons.svg';
+import { bankImages, productImages } from './productImages.js';
 
 const topics = [
-  { id: 'produk-kajian', label: 'Produk kajian dan panduan', image: guide },
-  { id: 'standar-pqc', label: 'Standar teknis PQC', image: standard },
-  { id: 'respons-negara', label: 'Benchmark internasional', image: benchmark },
+  { id: 'produk-kajian', label: 'Produk kajian dan panduan', image: productImages.servers },
+  { id: 'standar-pqc', label: 'Standar teknis PQC', image: productImages.circuit },
+  { id: 'respons-negara', label: 'Benchmark internasional', image: productImages.bis },
 ];
 
 export const resilienceSections = topics.map(topic => {
@@ -24,14 +19,14 @@ export const resilienceSections = topics.map(topic => {
   };
 });
 
-export const bankCards = banks.map((bank, index) => {
+export const bankCards = banks.map(bank => {
   const evidence = bank.milestones.find(item => item.source);
   return {
     id: bank.id,
     title: bank.name,
     text: evidence ? evidence.title : bank.direction,
     scope: bank.region + ' · ' + (evidence?.stage || 'Pemetaan awal'),
-    image: [hardware, chip, world][index % 3],
+    image: bankImages[bank.id],
     href: '#pemanfaatan-kuantum/bank/' + bank.id,
     action: 'Buka profil bank',
     evidence,

@@ -103,9 +103,10 @@ export default function CatalogCarousel({ data }) {
           onPointerUp={stopDrag} onPointerCancel={stopDrag} onLostPointerCapture={stopDrag}>
           {data.items.map(item => {
             const href = item.href || item.source?.href;
+            const image = item.image || data.image;
             return (
               <article className="qr-asset-card" key={item.id}>
-                <div className="qr-card-photo" aria-hidden="true" style={{ backgroundImage: `url("${item.image || data.image || photo}")` }} />
+                <div className="qr-card-photo" aria-hidden="true" style={{ backgroundImage: `url("${image?.src || photo}")` }} />
                 <div className="qr-card-copy">
                   <p className="eyebrow">{item.scope || data.title}</p>
                   <h3>{item.title}</h3>
@@ -123,6 +124,12 @@ export default function CatalogCarousel({ data }) {
                         aria-label={`Bukti ${item.title}: ${item.evidence.title}`}>Bukti ↗</a>
                     )}
                   </div>
+                  {image && (
+                    <p className="qr-image-credit">
+                      Foto ilustrasi · <a href={image.source} title={image.caption} target="_blank" rel="noreferrer">{image.credit}</a>
+                      {' · '}<a href={image.license.url} target="_blank" rel="noreferrer">{image.license.label}</a>
+                    </p>
+                  )}
                 </div>
               </article>
             );

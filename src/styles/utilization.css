@@ -1,0 +1,79 @@
+.qu-hero {
+  color: #fff;
+  background: linear-gradient(100deg, #101937f5, #141c3dbc 55%, #10193666),
+    var(--qu-photo) center 46% / cover no-repeat, #101936;
+}
+
+.qu-hero-inner {
+  display: grid;
+  align-content: center;
+  min-height: clamp(420px, 64svh, 660px);
+  padding-block: 52px;
+}
+
+.qu-hero h1 {
+  font-size: clamp(2.45rem, 6.4vw, 5.9rem);
+  line-height: 1;
+}
+
+.qu-hero .eyebrow { color: #cbd6ff; }
+.qu-hero h1 + p { max-width: 56ch; margin-top: 24px; color: #eef2ff; }
+.qu-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.qu-actions .qu-ghost { background: #192649eb; color: #fff; border-color: #ffffff80; }
+
+.qu-explorer {
+  display: grid;
+  grid-template-columns: minmax(200px, 1fr) minmax(0, 2.6fr);
+  align-items: start;
+  gap: 18px;
+}
+
+.qu-picker, .qu-profile, .qu-method-grid article { padding: clamp(17px, 2.6vw, 32px); }
+.qu-bank-list { display: grid; gap: 6px; margin-top: 12px; }
+.qu-bank-list button {
+  display: grid;
+  text-align: left;
+  min-height: 48px;
+  background: #fff;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 8px 11px;
+}
+
+.qu-bank-list button span { font-weight: 750; }
+.qu-bank-list small { color: var(--muted); }
+.qu-bank-list button[aria-pressed="true"] { background: var(--ice); color: #253caf; border-color: #adbaf4; }
+.qu-profile-header h3 { font-size: clamp(1.6rem, 4vw, 2.6rem); line-height: 1.1; }
+.qu-profile-header h3 + p { margin-top: 10px; color: var(--muted); }
+.qu-profile h4 { margin: 24px 0 12px; font-size: 1.15rem; }
+.qu-timeline { list-style: none; margin: 0; padding: 0; }
+.qu-timeline li {
+  display: grid;
+  grid-template-columns: minmax(76px, 110px) minmax(0, 1fr);
+  gap: 14px;
+  padding: 16px 0;
+  border-top: 1px solid var(--line);
+}
+.qu-time { font-weight: 800; color: #3546b7; }
+.qu-status { display: inline-block; background: var(--ice); color: #293d9c; border-radius: 8px; padding: 2px 8px; font-size: .8rem; font-weight: 700; }
+.qu-timeline h5 { font-size: 1.1rem; line-height: 1.22; margin: 8px 0; }
+.qu-limit, .qu-evidence { margin-top: 7px; color: var(--muted); font-size: .9rem; }
+.qu-evidence { display: inline-block; color: var(--blue); }
+.qu-security { margin-top: 18px; padding: 12px 14px; background: #f7f8fb; border: 1px solid var(--line); border-radius: 12px; }
+.qu-security summary { cursor: pointer; color: var(--muted); font-weight: 700; }
+.qu-security p, .qu-security a { margin-top: 8px; }
+.qu-security a { display: inline-block; }
+.qu-method-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.qu-method-grid h3 + p { margin-top: 8px; color: var(--muted); }
+.qu-return { margin-top: 28px; }
+
+@media (max-width: 730px) {
+  .qu-explorer, .qu-method-grid { grid-template-columns: 1fr; }
+  .qu-bank-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .qu-hero h1 br { display: none; }
+}
+
+@media (max-width: 440px) {
+  .qu-timeline li { grid-template-columns: 1fr; gap: 5px; }
+}

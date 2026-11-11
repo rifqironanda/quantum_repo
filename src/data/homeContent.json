@@ -1,0 +1,110 @@
+{
+  "heroes": [
+    {
+      "title": "Pemanfaatan komputasi kuantum",
+      "description": "Jelajahi eksperimen, fungsi bank, dan kematangan buktinya.",
+      "label": "Jalur A",
+      "alt": "IBM Quantum System One",
+      "start": 0
+    },
+    {
+      "title": "Ketahanan terhadap ancaman kuantum",
+      "description": "Telusuri paparan kriptografi, skenario HNDL, dan standar pascakuantum.",
+      "label": "Jalur B",
+      "alt": "Planet Bumi dalam foto The Blue Marble",
+      "start": 3
+    }
+  ],
+  "cards": [
+    {
+      "title": "Portofolio",
+      "description": "Optimasi alokasi aset dengan kendala risiko dan komposisi portofolio.",
+      "label": "Investasi · Area eksperimen",
+      "standard": false,
+      "crop": "31%",
+      "url": null
+    },
+    {
+      "title": "Derivatif",
+      "description": "Eksperimen pada pricing dan estimasi risiko dengan pembanding klasik.",
+      "label": "Pasar · Area eksperimen",
+      "standard": false,
+      "crop": "50%",
+      "url": null
+    },
+    {
+      "title": "Likuiditas pembayaran",
+      "description": "Eksperimen penjadwalan pembayaran dengan kendala likuiditas.",
+      "label": "Pembayaran · Area eksperimen",
+      "standard": false,
+      "crop": "69%",
+      "url": null
+    },
+    {
+      "title": "ML-KEM",
+      "description": "Mekanisme enkapsulasi kunci.",
+      "label": "Standar kriptografi · FIPS 203",
+      "standard": true,
+      "crop": "31%",
+      "url": "https://csrc.nist.gov/pubs/fips/203/final"
+    },
+    {
+      "title": "ML-DSA",
+      "description": "Standar tanda tangan digital.",
+      "label": "Standar kriptografi · FIPS 204",
+      "standard": true,
+      "crop": "50%",
+      "url": "https://csrc.nist.gov/pubs/fips/204/final"
+    },
+    {
+      "title": "SLH-DSA",
+      "description": "Standar tanda tangan digital berbasis hash.",
+      "label": "Standar kriptografi · FIPS 205",
+      "standard": true,
+      "crop": "69%",
+      "url": "https://csrc.nist.gov/pubs/fips/205/final"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1982,
+      "title": "Simulasi sistem kuantum",
+      "label": "Fondasi · 1982",
+      "description": "Richard Feynman membahas gagasan menggunakan sistem kuantum untuk menyimulasikan fisika kuantum.",
+      "url": "https://doi.org/10.1007/BF02650179",
+      "source": "Feynman · Simulating physics with computers ↗"
+    },
+    {
+      "year": 1994,
+      "title": "Algoritma Shor",
+      "label": "Algoritma · 1994",
+      "description": "Peter Shor memperkenalkan algoritma kuantum untuk faktorisasi dan logaritma diskret, dua masalah yang relevan bagi kriptografi kunci publik.",
+      "url": "https://doi.org/10.1109/SFCS.1994.365700",
+      "source": "Shor · FOCS 1994 ↗"
+    },
+    {
+      "year": 1996,
+      "title": "Algoritma Grover",
+      "label": "Algoritma · 1996",
+      "description": "Lov Grover menunjukkan cara mengurangi jumlah kueri untuk pencarian tak terstruktur dari orde N menjadi orde akar N dalam model kueri.",
+      "url": "https://arxiv.org/abs/quant-ph/9605043",
+      "source": "Grover · STOC 1996 ↗"
+    },
+    {
+      "year": 2019,
+      "title": "Eksperimen Sycamore",
+      "label": "Eksperimen · 2019",
+      "description": "Tim Google melaporkan eksperimen sampling rangkaian acak pada prosesor kuantum. Hasilnya berlaku pada tugas eksperimen tersebut.",
+      "url": "https://www.nature.com/articles/s41586-019-1666-5",
+      "source": "Arute dkk. · Nature ↗"
+    },
+    {
+      "year": 2024,
+      "title": "Standar awal PQC",
+      "label": "Standar keamanan · 2024",
+      "description": "NIST menerbitkan FIPS 203, 204, dan 205 sebagai standar awal untuk melindungi komunikasi dan tanda tangan dari ancaman kuantum.",
+      "url": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+      "source": "NIST · Standar PQC ↗"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+[
+  {
+    "name": "JPMorgan Chase",
+    "region": "Amerika Serikat",
+    "direction": "Dari valuasi dan hedging ke optimasi portofolio dan infrastruktur eksperimen hibrida.",
+    "milestones": [
+      {
+        "year": 2020,
+        "title": "Valuasi opsi",
+        "stage": "Demo perangkat",
+        "summary": "Amplitude estimation diuji pada IBM Q Tokyo.",
+        "limit": "Demo sirkuit belum mengukur biaya atau kecepatan pricing operasional."
+      },
+      {
+        "year": 2023,
+        "title": "Quantum Deep Hedging",
+        "stage": "Demo perangkat",
+        "summary": "Simulasi dan eksperimen trapped-ion untuk strategi lindung nilai.",
+        "limit": "Tidak ada bukti penggunaan pada posisi trading langsung."
+      },
+      {
+        "year": 2024,
+        "title": "Hybrid HHL++",
+        "stage": "Demo perangkat",
+        "summary": "Optimasi portofolio kecil pada Quantinuum H-series.",
+        "limit": "Keunggulan atas solver klasik belum ditetapkan."
+      },
+      {
+        "year": 2026,
+        "title": "Platform Quantum–AI",
+        "stage": "Rencana diumumkan",
+        "summary": "Platform riset OQC, AMD, dan JPMorgan untuk eksperimen kuantum, AI, dan HPC.",
+        "limit": "Tanggal merujuk pengumuman, bukan status operasi."
+      }
+    ],
+    "security": "Strategi keamanan menggabungkan PQC dan QKD. Cakupan migrasi organisasi belum terbukti dalam kajian."
+  },
+  {
+    "name": "HSBC",
+    "region": "Britania Raya",
+    "direction": "Dari pengembangan kapasitas dan klasifikasi ke eksperimen obligasi dengan data perdagangan.",
+    "milestones": [
+      {
+        "year": 2022,
+        "title": "Kolaborasi IBM",
+        "stage": "Pengumuman",
+        "summary": "Akses perangkat, pelatihan, dan pengembangan kasus penggunaan.",
+        "limit": "Akses perangkat belum membuktikan kesiapan operasional."
+      },
+      {
+        "year": 2023,
+        "title": "Quantum Multiple Kernel Learning",
+        "stage": "Simulasi dan demo",
+        "summary": "Simulasi pada data fraud HSBC dan demonstrasi IBM Auckland pada dataset bank marketing.",
+        "limit": "Dua cabang memakai dataset berbeda."
+      },
+      {
+        "year": 2025,
+        "title": "Quantum-enabled bond trading",
+        "stage": "Uji offline dengan data bank",
+        "summary": "Fitur kuantum dan model klasik diuji pada data perdagangan menggunakan prosesor Heron.",
+        "limit": "Uji offline belum membuktikan pemakaian rutin dalam perdagangan langsung.",
+        "source": "https://www.hsbc.com/news-and-views/news/media-releases/2025/hsbc-demonstrates-worlds-first-known-quantum-enabled-algorithmic-trading-with-ibm"
+      }
+    ],
+    "security": "Pilot emas tokenisasi bersama Quantinuum menggunakan PQC. Bukti pilot terbatas pada lingkup pengujian."
+  },
+  {
+    "name": "Barclays",
+    "region": "Britania Raya",
+    "direction": "Optimasi settlement melalui jalur kuantum IBM dan jalur optik klasik yang berdekatan.",
+    "milestones": [
+      {
+        "year": 2017,
+        "title": "IBM Q Network",
+        "stage": "Kapasitas riset",
+        "summary": "Chief Technology Office tercatat mengeksplorasi komputasi kuantum.",
+        "limit": "Partisipasi jaringan menunjukkan akses riset."
+      },
+      {
+        "year": 2019,
+        "title": "Optimasi settlement Barclays–IBM",
+        "stage": "Simulasi dan demo",
+        "summary": "Preprint mendokumentasikan algoritma variational dan optimasi klasik; uji perangkat mencakup kasus kecil.",
+        "limit": "Belum ada bukti penggunaan di settlement operasional."
+      },
+      {
+        "year": 2023,
+        "title": "Analog Iterative Machine",
+        "stage": "Optik klasik",
+        "summary": "Kolaborasi dengan Microsoft untuk formulasi settlement melalui komputasi optoelektronik.",
+        "limit": "AIM dan pengembangannya berada dalam satu keluarga riset optik."
+      },
+      {
+        "year": 2025,
+        "title": "Analog Optical Computer",
+        "stage": "Optik klasik",
+        "summary": "Demonstrasi perangkat optik dan digital twin untuk optimasi, termasuk settlement.",
+        "limit": "Hasil PoC optik dilaporkan terpisah dari eksperimen QPU."
+      }
+    ],
+    "security": "Keikutsertaan Quantum Safe Financial Forum menunjukkan koordinasi kesiapan. Implementasi migrasi belum terverifikasi dalam kajian."
+  },
+  {
+    "name": "Wells Fargo",
+    "region": "Amerika Serikat",
+    "direction": "Pengembangan metode kuantum, simulator, dan model generatif untuk riset.",
+    "milestones": [
+      {
+        "year": 2019,
+        "title": "IBM Quantum Network",
+        "stage": "Kapasitas riset",
+        "summary": "Akses ekosistem perangkat untuk mengembangkan dan menguji algoritma.",
+        "limit": "Keanggotaan belum menetapkan penggunaan bisnis."
+      },
+      {
+        "year": 2022,
+        "title": "Quantum inner product",
+        "stage": "Riset metode",
+        "summary": "Pengembangan metode dengan aplikasi yang dikaji pada financial engineering.",
+        "limit": "Publikasi menunjukkan riset metode, dengan penggunaan bisnis yang masih perlu diverifikasi."
+      },
+      {
+        "year": 2023,
+        "title": "Spinoza",
+        "stage": "Simulator klasik",
+        "summary": "Simulator state kuantum untuk menguji sirkuit pada komputer klasik.",
+        "limit": "Kemampuan simulasi berbeda dari eksekusi pada QPU."
+      },
+      {
+        "year": 2025,
+        "title": "Adaptive quantum channels",
+        "stage": "Riset metode",
+        "summary": "Penelitian kanal kuantum adaptif untuk model generatif bermemori panjang.",
+        "limit": "Pemakaian pada proses bisnis belum terverifikasi."
+      }
+    ],
+    "security": "Partisipasi dalam konsorsium migrasi PQC NIST tercatat pada kajian."
+  },
+  {
+    "name": "Goldman Sachs",
+    "region": "Amerika Serikat",
+    "direction": "Fokus pada ambang keunggulan dan kebutuhan sumber daya untuk valuasi, risiko, dan portofolio.",
+    "milestones": [
+      {
+        "year": 2021,
+        "title": "Ambang keunggulan untuk valuasi derivatif",
+        "stage": "Estimasi sumber daya",
+        "summary": "Analisis kebutuhan komputasi agar pricing dapat dibandingkan dengan pendekatan klasik.",
+        "limit": "Ambang teoretis belum menunjukkan percepatan aktual."
+      },
+      {
+        "year": 2022,
+        "title": "Low-depth amplitude estimation",
+        "stage": "Demo perangkat",
+        "summary": "Demonstrasi metode pada perangkat trapped-ion.",
+        "limit": "Demo komponen algoritma belum mencakup keseluruhan proses pricing."
+      },
+      {
+        "year": 2023,
+        "title": "Quantum interior-point methods",
+        "stage": "Estimasi sumber daya",
+        "summary": "Analisis end-to-end untuk metode interior-point dan optimasi portofolio.",
+        "limit": "Hasil bergantung pada asumsi model dan kemampuan perangkat."
+      }
+    ],
+    "security": "Tahap 2.5 belum mendukung klaim pilot PQC atau migrasi seluruh organisasi."
+  },
+  {
+    "name": "BBVA",
+    "region": "Spanyol",
+    "direction": "Eksperimen portofolio, risiko, dan kas, dengan pembanding klasik dan infrastruktur simulasi.",
+    "milestones": [
+      {
+        "year": 2020,
+        "title": "Portofolio dengan Digital Annealer",
+        "stage": "Quantum-inspired",
+        "summary": "PoC Fujitsu menggunakan data historis untuk optimasi portofolio.",
+        "limit": "Digital Annealer memakai komputasi klasik.",
+        "source": "https://info.archives.global.fujitsu/emeia/about/resources/news/press-releases/2020/emeai-20200529-bbva-bank-selects-fujitsu-s-quantum-inspired.html"
+      },
+      {
+        "year": 2021,
+        "title": "Credit Valuation Adjustment",
+        "stage": "Analisis numerik",
+        "summary": "Amplitude estimation diteliti untuk valuasi risiko kredit pihak lawan.",
+        "limit": "Prospek percepatan dianalisis secara numerik."
+      },
+      {
+        "year": 2023,
+        "title": "Optimasi pergerakan kas",
+        "stage": "Riset metode",
+        "summary": "MOVCO meneliti pengiriman dan penarikan kas dengan kendala.",
+        "limit": "Riset metode belum menetapkan penggunaan operasional."
+      },
+      {
+        "year": 2024,
+        "title": "Qiskit terdistribusi di AWS",
+        "stage": "Simulator klasik",
+        "summary": "Pilot mensimulasikan rangkaian hingga 38 qubit pada server konvensional.",
+        "limit": "Angka tersebut merujuk qubit simulasi."
+      }
+    ],
+    "security": "Keanggotaan QSFF dan pengungkapan risiko migrasi dicatat terpisah dari eksperimen pemanfaatan."
+  },
+  {
+    "name": "Intesa Sanpaolo",
+    "region": "Italia",
+    "direction": "Riset risiko kredit, portofolio, dan fraud dengan pendekatan serta perangkat yang beragam.",
+    "milestones": [
+      {
+        "year": 2023,
+        "title": "Quantum Credit Risk Analysis",
+        "stage": "Riset metode",
+        "summary": "Model memperluas kerangka risiko kredit dengan beberapa faktor sistemik.",
+        "limit": "Cakupan model riset berbeda dari persetujuan operasional."
+      },
+      {
+        "year": 2025,
+        "title": "Fraud pada perangkat Aquila",
+        "stage": "Demo perangkat",
+        "summary": "Studi memakai simulator kuantum analog berbasis atom netral fisik dan emulator klasik.",
+        "limit": "Eksperimen perangkat menggunakan subset data."
+      },
+      {
+        "year": 2026,
+        "title": "Partenope untuk risiko kredit",
+        "stage": "Demo perangkat",
+        "summary": "PoC persiapan distribusi pada model risiko kredit kecil.",
+        "limit": "Pengujian dua hingga tiga qubit membatasi kesimpulan tentang skala."
+      }
+    ],
+    "security": "Keikutsertaan QSFF mendukung bukti koordinasi. Riset RSA dengan metode quantum-inspired adalah pekerjaan terpisah."
+  },
+  {
+    "name": "OCBC",
+    "region": "Singapura",
+    "direction": "Eksperimen fraud, kerja sama valuasi derivatif, dan sandbox untuk penelitian.",
+    "milestones": [
+      {
+        "year": 2024,
+        "title": "Sandbox OCBC–NQCH",
+        "stage": "Demo sandbox",
+        "summary": "Toolkit demonstrasi memakai dataset dan model kuantum.",
+        "limit": "Lingkungan demo berbeda dari sistem produksi."
+      },
+      {
+        "year": 2025,
+        "title": "Valuasi derivatif bersama CQT",
+        "stage": "Program riset",
+        "summary": "Riset algoritma untuk mempercepat Monte Carlo dalam penilaian derivatif.",
+        "limit": "Rincian metode dan pembanding perlu dibaca per bukti."
+      },
+      {
+        "year": 2026,
+        "title": "Fraud kartu kredit dengan CVQBoosting",
+        "stage": "Demo perangkat",
+        "summary": "Pendekatan hibrida memakai prosesor fotonik Dirac-3.",
+        "limit": "Hasil eksperimen belum menetapkan manfaat pada deteksi fraud rutin."
+      }
+    ],
+    "security": "Preprint Mei 2026 mencatat ML-KEM dan pertukaran kunci hibrida untuk aplikasi internal pada web server dan API gateway. Lingkupnya terbatas."
+  },
+  {
+    "name": "UOB",
+    "region": "Singapura",
+    "direction": "Riset valuasi derivatif path-dependent dan estimasi kejadian langka pada data finansial.",
+    "milestones": [
+      {
+        "year": 2026,
+        "title": "Valuasi derivatif path-dependent",
+        "stage": "Pengumuman riset",
+        "summary": "Kolaborasi UOB–CQT mengkaji valuasi yang bergantung pada lintasan harga.",
+        "limit": "Tahap 2.5 belum mencatat hasil benchmark pricing atau runtime.",
+        "source": "https://www.uob.com.sg/uobgroup/newsroom/news-releases/2026/uob-cqt.page"
+      },
+      {
+        "year": null,
+        "title": "Estimasi kejadian langka",
+        "stage": "Program riset",
+        "summary": "Program QEP melibatkan UOB untuk pemodelan kejadian finansial langka.",
+        "limit": "Tahun dan hasil uji khusus UOB belum ditetapkan di sini."
+      }
+    ],
+    "security": "Bukti keamanan yang dirinci adalah sandbox QKD MAS 2025. QKD merupakan jalur tersendiri dari migrasi PQC."
+  },
+  {
+    "name": "ICBC",
+    "region": "Tiongkok",
+    "direction": "Studi risiko obligasi, portofolio dan valuasi, dengan arah eksplorasi beberapa jenis komputasi.",
+    "milestones": [
+      {
+        "year": 2023,
+        "title": "Portofolio obligasi dan valuasi opsi",
+        "stage": "Simulator klasik",
+        "summary": "Laporan semester pertama menyebut evaluasi kelayakan berbasis simulator.",
+        "limit": "Hasil optimasi dan keunggulan terhadap pembanding belum terbuka."
+      },
+      {
+        "year": 2026,
+        "title": "Validasi valuasi opsi",
+        "stage": "Bukti sekunder",
+        "summary": "Laporan industri menyebut range-accrual options dan Asian options.",
+        "limit": "Rincian algoritma dan hasil perlu diverifikasi pada laporan eksperimen asli."
+      },
+      {
+        "year": 2026,
+        "title": "Arah riset komputasi",
+        "stage": "Arah yang dilaporkan",
+        "summary": "Jangka dekat quantum-inspired dan tensor network, jangka menengah fotonik, jangka panjang komputasi kuantum universal.",
+        "limit": "Arah dan proyeksi berbeda dari tonggak implementasi."
+      },
+      {
+        "year": null,
+        "title": "Risiko gagal bayar obligasi",
+        "stage": "Simulator klasik",
+        "summary": "Quantum GNN diuji pada dataset obligasi 2022 menggunakan simulator.",
+        "limit": "Tahun dataset bukan tahun eksperimen. Hasil perlu dibandingkan dengan model klasik yang setara."
+      }
+    ],
+    "security": "Laporan semester pertama 2024 mencatat pengujian pada tanda tangan digital dan enkripsi transport."
+  }
+]

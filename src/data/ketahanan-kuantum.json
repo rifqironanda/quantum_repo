@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "locale": "id-ID",
+  "id": "ketahanan-kuantum",
+  "hero": {
+    "eyebrow": "Kajian Quantum Banking",
+    "title": "Ketahanan terhadap Ancaman Kuantum",
+    "text": "Dari transformasi digital perbankan hingga keputusan untuk mengelola ancaman kuantum dan risiko migrasi.",
+    "actions": [
+      {
+        "label": "Mulai jelajahi kajian",
+        "href": "#ketahanan-kuantum/latar-belakang"
+      },
+      {
+        "label": "Lihat produk kajian",
+        "href": "#ketahanan-kuantum/produk-kajian"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "latar-belakang",
+      "type": "opening",
+      "title": "Dari transformasi digital ke ancaman kuantum",
+      "text": "Layanan perbankan semakin terhubung melalui aplikasi, API, dan sistem pihak ketiga. Untuk memahami dampak komputasi kuantum, kajian dimulai dari fungsi kriptografi yang menopang layanan tersebut.",
+      "items": [
+        {
+          "id": "transformasi-digital",
+          "title": "Mengapa transformasi digital membuat bank bergantung pada kriptografi?",
+          "text": "Saat nasabah mengakses layanan atau sistem bank bertukar data, kriptografi membantu membentuk kunci komunikasi, memverifikasi identitas, dan menjaga integritas transaksi. Fungsi kriptografi tersebut diterapkan dalam berbagai lapisan infrastruktur teknologi perbankan, mulai dari layanan digital hingga sistem pertukaran data dan pemrosesan transaksi."
+        },
+        {
+          "id": "emerging-technology",
+          "title": "Bagaimana komputasi kuantum dapat mengancam kriptografi perbankan?",
+          "text": "Sistem kriptografi yang digunakan dalam sektor perbankan umumnya menerapkan algoritma RSA dan ECC untuk melindungi data penting. Keamanan algoritma tersebut bergantung pada sulitnya menyelesaikan persoalan matematis tertentu menggunakan komputer klasik. Namun, algoritma kuantum seperti Shor menunjukkan potensi untuk memecahkan persoalan tersebut secara teoretis."
+        }
+      ],
+      "anchor": "ketahanan-kuantum/latar-belakang"
+    },
+    {
+      "id": "ancaman",
+      "type": "levels",
+      "title": "Dua level masalah yang perlu ditindaklanjuti",
+      "items": [
+        {
+          "level": 1,
+          "id": "hndl",
+          "title": "HNDL dan ancaman terhadap kriptografi kunci publik",
+          "text": "Dalam skenario Harvest Now, Decrypt Later, pihak lain merekam lalu lintas terenkripsi hari ini untuk mencoba membukanya kelak. Risiko ini relevan ketika data masih bernilai atau rahasia saat mekanisme pembentukan kunci yang melindunginya dapat dipatahkan.",
+          "followUp": "Petakan aliran data dan masa kerahasiaannya, lalu verifikasi mekanisme pembentukan kunci. Nilai paparan tanda tangan digital secara terpisah karena konsekuensinya menyangkut autentikasi dan integritas."
+        },
+        {
+          "level": 2,
+          "id": "mitigasi-pqc",
+          "title": "Risiko selama mitigasi melalui migrasi PQC",
+          "text": "Pergantian komponen kriptografi dapat menimbulkan kegagalan interoperabilitas, penurunan kinerja atau ketahanan layanan, serta peluang fraud jika kontrol identitas melemah selama transisi.",
+          "followUp": "Uji kompatibilitas dan kinerja, tetapkan kriteria penghentian serta pemulihan, dan pantau pengecualian kontrol selama transisi."
+        }
+      ],
+      "anchor": "ketahanan-kuantum/ancaman"
+    },
+    {
+      "id": "bagian-kajian",
+      "type": "carousel",
+      "title": "Lima bagian kajian",
+      "items": [
+        {
+          "id": "algoritma",
+          "title": "Dasar ancaman kriptografi",
+          "text": "Hubungkan teori kompleksitas dan mekanika kuantum dengan algoritma Shor. Bedakan pembuktian matematis, demonstrasi, estimasi sumber daya, dan kemampuan operasional."
+        },
+        {
+          "id": "paparan",
+          "title": "Paparan produk dan layanan bank",
+          "text": "Telusuri produk, proses, aplikasi, dan pihak ketiga hingga fungsi kriptografinya. Catat mana yang terkonfirmasi dan mana yang masih perlu diverifikasi."
+        },
+        {
+          "id": "perangkat",
+          "title": "Perkembangan perangkat dan skenario waktu",
+          "text": "Bandingkan dokumen industri dan estimasi kebutuhan sumber daya untuk menyusun skenario kemunculan komputer kuantum yang relevan secara kriptografis, beserta asumsi dan ketidakpastiannya."
+        },
+        {
+          "id": "prioritas",
+          "title": "Benchmark, tata kelola, dan prioritas migrasi",
+          "text": "Bandingkan pendekatan internasional, lalu nilai urgensi mitigasi dan risiko migrasi secara terpisah. Tetapkan pemilik risiko, urutan tindakan, dan kriteria keputusan."
+        },
+        {
+          "id": "audit",
+          "title": "Pengawasan dan audit migrasi",
+          "text": "Rumuskan indikator pengawasan untuk progres dan pengecualian, serta bukti yang dapat diperiksa secara independen oleh audit."
+        }
+      ],
+      "anchor": "ketahanan-kuantum/bagian-kajian"
+    },
+    {
+      "id": "dokumen",
+      "type": "documentList",
+      "title": "Dokumen penting",
+      "items": [
+        {
+          "id": "urutan-kajian",
+          "title": "Urutan Kajian Ketahanan Kuantum",
+          "text": "Alur kajian dari dasar ancaman, risiko dan benchmark hingga mitigasi, pengawasan, dan audit.",
+          "format": "docs",
+          "href": null
+        },
+        {
+          "id": "ringkasan-slides",
+          "title": "Ringkasan Kajian Ketahanan Kuantum",
+          "text": "Materi presentasi tentang dua level risiko, benchmark, dan implikasi untuk perbankan.",
+          "format": "slides",
+          "href": null
+        },
+        {
+          "id": "matriks-sheets",
+          "title": "Matriks Bukti dan Prioritas",
+          "text": "Daftar sumber, status bukti penggunaan kriptografi, dan matriks prioritas mitigasi.",
+          "format": "sheets",
+          "href": null
+        }
+      ],
+      "anchor": "ketahanan-kuantum/dokumen"
+    },
+    {
+      "id": "produk-kajian",
+      "type": "carousel",
+      "title": "Produk kajian dan panduan",
+      "text": "Buka ringkasan setiap produk, lalu lanjutkan ke versi lengkap melalui Eksplorasi di homepage.",
+      "items": [
+        {
+          "id": "peta-paparan",
+          "title": "Peta Paparan Kriptografi Perbankan",
+          "text": "Telusuri kaitan produk dan layanan dengan fungsi kriptografi serta status buktinya.",
+          "cta": {
+            "label": "Lihat versi lengkap",
+            "href": null,
+            "explorationId": "peta-paparan"
+          }
+        },
+        {
+          "id": "benchmark",
+          "title": "Benchmark Ketahanan Kuantum",
+          "text": "Bandingkan instrumen internasional, pihak yang dituju, dan relevansinya untuk bank Indonesia.",
+          "cta": {
+            "label": "Lihat versi lengkap",
+            "href": null,
+            "explorationId": "benchmark"
+          }
+        },
+        {
+          "id": "prioritas",
+          "title": "Panduan Prioritas dan Tata Kelola",
+          "text": "Gunakan kriteria urgensi, kekritisan layanan, dan risiko perubahan untuk menentukan tindak lanjut.",
+          "cta": {
+            "label": "Lihat versi lengkap",
+            "href": null,
+            "explorationId": "prioritas"
+          }
+        },
+        {
+          "id": "migrasi-pqc",
+          "title": "Panduan Migrasi PQC",
+          "text": "Ikuti tahapan dari inventarisasi dan uji coba hingga penerapan bertahap, dengan kriteria keputusan pada tiap tahap.",
+          "cta": {
+            "label": "Lihat versi lengkap",
+            "href": null,
+            "explorationId": "migrasi-pqc"
+          }
+        },
+        {
+          "id": "pengawasan-audit",
+          "title": "Panduan Pengawasan dan Audit",
+          "text": "Gunakan indikator, daftar bukti, dan kriteria penutupan temuan untuk menilai jalannya migrasi.",
+          "cta": {
+            "label": "Lihat versi lengkap",
+            "href": null,
+            "explorationId": "pengawasan-audit"
+          }
+        }
+      ],
+      "anchor": "ketahanan-kuantum/produk-kajian"
+    },
+    {
+      "id": "standar-pqc",
+      "anchor": "ketahanan-kuantum/standar-pqc",
+      "type": "references",
+      "title": "Standar kriptografi pascakuantum",
+      "text": "Pilih standar berdasarkan fungsi yang hendak dilindungi.",
+      "items": [
+        {
+          "id": "fips-203",
+          "title": "FIPS 203 · ML-KEM",
+          "text": "Mekanisme enkapsulasi untuk membentuk rahasia bersama. Rahasia tersebut dapat digunakan oleh kriptografi simetris.",
+          "source": {
+            "label": "Buka FIPS 203",
+            "href": "https://csrc.nist.gov/pubs/fips/203/final"
+          },
+          "scope": "Pembentukan kunci"
+        },
+        {
+          "id": "fips-204",
+          "title": "FIPS 204 · ML-DSA",
+          "text": "Tanda tangan digital berbasis kisi modul untuk autentikasi penanda tangan dan pemeriksaan integritas data.",
+          "source": {
+            "label": "Buka FIPS 204",
+            "href": "https://csrc.nist.gov/pubs/fips/204/final"
+          },
+          "scope": "Tanda tangan digital"
+        },
+        {
+          "id": "fips-205",
+          "title": "FIPS 205 · SLH-DSA",
+          "text": "Tanda tangan digital berbasis hash tanpa state, dengan pilihan parameter untuk kebutuhan yang berbeda.",
+          "source": {
+            "label": "Buka FIPS 205",
+            "href": "https://csrc.nist.gov/pubs/fips/205/final"
+          },
+          "scope": "Tanda tangan digital"
+        }
+      ]
+    },
+    {
+      "id": "respons-negara",
+      "anchor": "ketahanan-kuantum/respons-negara",
+      "type": "references",
+      "title": "Respons negara dan kawasan",
+      "text": "Bandingkan jenis instrumen dan pihak yang dituju sebelum menarik implikasi untuk bank Indonesia.",
+      "items": [
+        {
+          "id": "us",
+          "title": "Amerika Serikat",
+          "text": "NIST IR 8547 final menjelaskan pendekatan transisi dari algoritma rentan menuju standar PQC. Dokumen juga mendukung prioritas migrasi sistem sensitif pada lembaga federal AS.",
+          "source": {
+            "label": "Buka NIST IR 8547",
+            "href": "https://csrc.nist.gov/pubs/ir/8547/final"
+          },
+          "scope": "NIST · Laporan transisi"
+        },
+        {
+          "id": "uk",
+          "title": "Britania Raya",
+          "text": "NCSC merekomendasikan inventarisasi dan rencana awal pada 2028, migrasi layanan prioritas pada 2031, serta penyelesaian migrasi pada 2035.",
+          "source": {
+            "label": "Buka panduan NCSC",
+            "href": "https://www.ncsc.gov.uk/guidance/pqc-migration-timelines"
+          },
+          "scope": "NCSC · Target rekomendasi"
+        },
+        {
+          "id": "ca",
+          "title": "Kanada",
+          "text": "Pemerintah Kanada menetapkan langkah persiapan bagi departemen dan agensi federal, termasuk rencana migrasi awal untuk sistem yang berada dalam cakupan kebijakan.",
+          "source": {
+            "label": "Buka pemberitahuan kebijakan",
+            "href": "https://www.canada.ca/en/government/system/digital-government/policies-standards/spin/migrating-government-canada-post-quantum-cryptography.html"
+          },
+          "scope": "Pemerintah Kanada · Cakupan federal"
+        },
+        {
+          "id": "eu",
+          "title": "Uni Eropa",
+          "text": "Roadmap implementasi mengarahkan koordinasi negara anggota dalam mempersiapkan transisi ke kriptografi pascakuantum.",
+          "source": {
+            "label": "Buka roadmap Uni Eropa",
+            "href": "https://digital-strategy.ec.europa.eu/en/library/coordinated-implementation-roadmap-transition-post-quantum-cryptography"
+          },
+          "scope": "Uni Eropa · Roadmap koordinasi"
+        }
+      ]
+    }
+  ],
+  "integration": {
+    "homepageExplorationHref": "#eksplorasi",
+    "documentLinks": "Isi href dengan URL dokumen. Tampilkan status Tautan belum tersedia selama href bernilai null.",
+    "explorationLinks": "Cocokkan explorationId dengan ID item di Eksplorasi pada homepage. Isi cta.href dengan rute versi lengkap setiap produk dan homepageExplorationHref dengan tautan ke bagian Eksplorasi. Tampilkan CTA setelah rute tersedia."
+  }
+}

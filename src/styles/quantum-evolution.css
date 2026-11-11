@@ -1,0 +1,102 @@
+.qe-page {
+  --qe-ink: #19223f;
+  --qe-muted: #4b5774;
+  --qe-line: #dfe5f2;
+  --qe-accent: #3848bd;
+  background: #f8f9fd;
+  color: var(--qe-ink);
+  line-height: 1.6;
+}
+
+.qe-wrap { width: min(1140px, calc(100% - 48px)); margin-inline: auto; }
+.qe-hero {
+  position: relative;
+  color: white;
+  background: linear-gradient(104deg, #111d3bfa 9%, #141e40cf 53%, #171b3540),
+    var(--qe-photo) center 51% / cover no-repeat, #131d39;
+}
+.qe-hero-inner { min-height: clamp(420px, 64svh, 650px); display: grid; align-content: center; padding-block: 55px 75px; }
+.qe-hero h1 { font-size: clamp(2.7rem, 6.6vw, 6rem); line-height: .98; letter-spacing: -.065em; margin: 11px 0 21px; }
+.qe-hero h1 + p { color: #edf0ff; max-width: 62ch; }
+.qe-kicker { color: var(--qe-accent); font-weight: 800; text-transform: uppercase; letter-spacing: .11em; font-size: .74rem; }
+.qe-hero .qe-kicker { color: #cbd5ff; }
+.qe-hero-credit { position: absolute; bottom: 13px; right: 16px; margin: 0; padding: 4px 8px; border-radius: 6px; background: #10172ce8; font-size: .72rem; }
+.qe-hero-credit a { color: #fff; }
+.qe-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.qe-hero .qe-actions { margin-top: 27px; }
+.qe-button, .qe-picks button, .qe-controls button {
+  min-height: 44px; display: inline-flex; align-items: center; justify-content: center;
+  font: inherit; font-weight: 750; text-decoration: none;
+  padding: 7px 14px; border: 1px solid var(--qe-line); border-radius: 9px; background: #fff; color: #26378f;
+}
+.qe-button { cursor: pointer; }
+.qe-outline { background: #eef0fa; }
+.qe-hero .qe-outline { background: #14234be8; color: white; border-color: #b9c5f0; }
+.qe-section { margin-block: 57px; scroll-margin-top: 20px; }
+.qe-section h2 { font-size: clamp(1.85rem, 4vw, 3.12rem); line-height: 1.08; letter-spacing: -.045em; margin: 7px 0 10px; }
+.qe-intro { max-width: 76ch; color: var(--qe-muted); margin-bottom: 19px; }
+.qe-picks { display: flex; gap: 7px; overflow-x: auto; padding: 4px 4px 11px; }
+.qe-picks button { flex: 0 0 auto; cursor: pointer; }
+.qe-picks button[aria-pressed="true"] { background: #e8edff; border-color: #abb8ee; }
+.qe-stage { touch-action: pan-y; }
+.qe-slide, .qe-lab-card, .qe-physics {
+  background: #fff; border: 1px solid var(--qe-line); border-radius: 20px;
+}
+.qe-slide { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); overflow: hidden; min-height: 360px; }
+.qe-slide-copy, .qe-lab-card { padding: clamp(19px, 3.5vw, 40px); }
+.qe-page h3 { font-size: clamp(1.3rem, 2.4vw, 2.1rem); line-height: 1.13; margin: 8px 0 11px; }
+.qe-takeaway { border-left: 3px solid #a8b5f2; padding: 8px 12px; margin-top: 14px; background: #f1f4ff; }
+.qe-sources { display: flex; flex-wrap: wrap; gap: 4px 14px; list-style: none; padding: 0; margin: 14px 0 0; font-size: .89rem; }
+.qe-page a:not(.qe-button, .qe-hero-credit a) { color: #3245a7; }
+.qe-picture { margin: 0; background: #e9eefc; display: grid; grid-template-rows: minmax(0, 1fr) auto; }
+.qe-picture img { display: block; width: 100%; height: 100%; min-height: 215px; max-height: 400px; object-fit: cover; object-position: center 47%; }
+.qe-picture figcaption { color: var(--qe-muted); font-size: .75rem; padding: 8px 12px; }
+.qe-controls { display: flex; gap: 13px; align-items: center; justify-content: flex-end; padding-top: 9px; }
+.qe-controls button { min-width: 44px; cursor: pointer; padding: 0; font-size: 1.5rem; }
+.qe-controls span { font-size: .86rem; font-weight: 700; }
+.qe-enter { animation: qe-appear .26s ease both; }
+@keyframes qe-appear { from { opacity: .35; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+.qe-labs { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.18fr); gap: 15px; }
+.qe-bit { margin: 16px 0; display: grid; place-items: center; width: 78px; aspect-ratio: 1; background: #e8edff; border-radius: 15px; color: var(--qe-accent); font-size: 2.5rem; font-weight: 800; }
+.qe-lab-card .qe-button { background: #e8edff; }
+.qe-probability { display: block; margin-top: 13px; }
+.qe-probability input { display: block; width: 100%; accent-color: var(--qe-accent); }
+.qe-results { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 6px; }
+.qe-results div { padding: 7px; border-radius: 8px; background: #f2f5ff; }
+.qe-results dt { font-size: .76rem; color: var(--qe-muted); }
+.qe-results dd { margin: 0; font-weight: 800; }
+.qe-muted { margin-top: 9px; color: var(--qe-muted); font-size: .86rem; }
+.qe-physics { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 20px; padding: clamp(19px, 3.5vw, 40px); margin-top: 17px; }
+.qe-physics details { border-top: 1px solid var(--qe-line); margin-top: 11px; padding-top: 10px; }
+.qe-physics summary { cursor: pointer; font-weight: 750; }
+.qe-physics details p { margin: 6px 0; }
+.qe-physics .qe-diagram { align-self: start; border-radius: 13px; overflow: hidden; }
+.qe-physics .qe-diagram img { height: auto; object-fit: contain; }
+.qe-company { min-height: 270px; }
+.qe-company-mark { display: grid; place-items: center; background: radial-gradient(circle at 26% 20%, #637aff, #312671 57%, #18203f); color: #fff; font-size: clamp(2.7rem, 8vw, 5.1rem); font-weight: 800; letter-spacing: -.07em; }
+.qe-back { display: inline-flex; margin-bottom: 28px; font-weight: 700; }
+.qe-page :is(a, button, input, summary, [tabindex]):focus-visible { outline: 3px solid #7454de; outline-offset: 3px; }
+
+@media (max-width: 740px) {
+  .qe-wrap { width: calc(100% - 32px); }
+  .qe-hero h1 br { display: none; }
+  .qe-slide, .qe-labs, .qe-physics { grid-template-columns: 1fr; }
+  .qe-company-mark { min-height: 130px; }
+  .qe-section { margin-block: 40px; }
+}
+@media (max-width: 385px) {
+  .qe-results { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .qe-enter { animation: none; }
+}
+
+.hero .qe-hero-link {
+  margin-inline-start: 8px;
+  background: #14234be8;
+  color: #fff;
+  border-color: #b9c5f0;
+}
+@media (max-width: 520px) {
+  .hero .qe-hero-link { margin: 8px 0 0; }
+}

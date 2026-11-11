@@ -1,13 +1,13 @@
-import { useState } from 'react';
+import CatalogCarousel from '../components/CatalogCarousel.jsx';
+import { bankCards } from '../data/explorationCatalog.js';
 import photo from '../assets/hero-a.jpg';
 import banks from '../data/utilizationBanks.json';
 import '../styles/utilization.css';
 
 const source = 'https://docs.google.com/document/d/1SfjM-4RHda92dx3bFJ60ZlrzWUMR2-I1tc1YWUkE5I0/edit?tab=t.rioz0rvg9y67';
 
-export default function UtilizationPage() {
-  const [selected, setSelected] = useState(banks[0].name);
-  const bank = banks.find(item => item.name === selected);
+export default function UtilizationPage({ bankId }) {
+  const bank = banks.find(item => item.id === bankId) || banks[0];
 
   return (
     <main className="qu-page" id="pemanfaatan-kuantum">
@@ -17,12 +17,19 @@ export default function UtilizationPage() {
           <h1 id="utilization-title" tabIndex={-1}>Pemanfaatan<br /> komputasi kuantum</h1>
           <p>Jelajahi riset bank untuk valuasi, portofolio, settlement, dan deteksi fraud. Lihat apa yang sudah diuji dan apa yang masih perlu dibuktikan.</p>
           <div className="qu-actions">
-            <a className="cta" href="#pemanfaatan-kuantum/bank">Jelajahi bank</a>
+            <a className="cta" href="#pemanfaatan-kuantum/produk-bank">Jelajahi bank</a>
             <a className="cta qu-ghost" href={source} target="_blank" rel="noreferrer">Baca Tahap 2.5 ↗</a>
           </div>
         </div>
       </section>
       <div className="wrap">
+        <section className="section" id="pemanfaatan-kuantum/produk-bank" aria-labelledby="bank-catalog-title">
+          <div className="intro">
+            <h2 id="bank-catalog-title">Produk riset per bank</h2>
+            <p>Buka profil untuk melihat timeline, metode yang diuji, dan sumber eksperimennya.</p>
+          </div>
+          <CatalogCarousel data={{ id: 'bank-catalog', title: 'Produk riset per bank', items: bankCards }} />
+        </section>
         <section className="section" id="pemanfaatan-kuantum/bank" aria-labelledby="utilization-banks">
           <div className="intro">
             <p className="eyebrow">Pemetaan Tahap 2.5 · {banks.length} bank</p>
@@ -34,14 +41,14 @@ export default function UtilizationPage() {
               <h3>Pilih bank</h3>
               <div className="qu-bank-list" role="group" aria-label="Bank dalam Tahap 2.5">
                 {banks.map(item => (
-                  <button key={item.name} type="button" aria-pressed={selected === item.name}
-                    onClick={() => setSelected(item.name)}>
+                  <a key={item.id} href={`#pemanfaatan-kuantum/bank/${item.id}`}
+                    aria-current={bank.id === item.id ? 'true' : undefined}>
                     <span>{item.name}</span><small>{item.region}</small>
-                  </button>
+                  </a>
                 ))}
               </div>
             </div>
-            <article className="panel qu-profile" aria-labelledby="utilization-bank-name">
+            <article className="panel qu-profile" id={`pemanfaatan-kuantum/bank/${bank.id}`} aria-labelledby="utilization-bank-name">
               <div className="qu-profile-header" aria-live="polite">
                 <p className="eyebrow">{bank.region} · Arah riset terdokumentasi</p>
                 <h3 id="utilization-bank-name">{bank.name}</h3>
@@ -57,7 +64,7 @@ export default function UtilizationPage() {
                       <h5>{item.title}</h5>
                       <p>{item.summary}</p>
                       <p className="qu-limit"><strong>Batas bukti.</strong> {item.limit}</p>
-                      {item.source && <a className="qu-evidence" href={item.source} target="_blank" rel="noreferrer">Sumber publik ↗</a>}
+                      {item.source ? <a className="qu-evidence" href={item.source} target="_blank" rel="noreferrer">Sumber publik ↗</a> : <p className="meta">Entri pemetaan awal · sumber publik belum diverifikasi.</p>}
                     </div>
                   </li>
                 ))}

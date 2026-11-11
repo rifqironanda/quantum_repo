@@ -42,7 +42,6 @@ export default function Hero() {
         <a 
           className="cta" 
           href={i === 1 ? '#ketahanan-kuantum' : '#pemanfaatan-kuantum'} 
-          onClick={i === 1 ? undefined : () => onExplore(item.start)}
           tabIndex={index === i ? 0 : -1}
         >
           Learn More

@@ -4,65 +4,13 @@
       "title": "Pemanfaatan komputasi kuantum",
       "description": "Jelajahi eksperimen, fungsi bank, dan kematangan buktinya.",
       "label": "Jalur A",
-      "alt": "IBM Quantum System One",
-      "start": 0
+      "alt": "IBM Quantum System One"
     },
     {
       "title": "Ketahanan terhadap ancaman kuantum",
       "description": "Telusuri paparan kriptografi, skenario HNDL, dan standar pascakuantum.",
       "label": "Jalur B",
-      "alt": "Planet Bumi dalam foto The Blue Marble",
-      "start": 3
-    }
-  ],
-  "cards": [
-    {
-      "title": "Portofolio",
-      "description": "Optimasi alokasi aset dengan kendala risiko dan komposisi portofolio.",
-      "label": "Investasi · Area eksperimen",
-      "standard": false,
-      "crop": "31%",
-      "url": null
-    },
-    {
-      "title": "Derivatif",
-      "description": "Eksperimen pada pricing dan estimasi risiko dengan pembanding klasik.",
-      "label": "Pasar · Area eksperimen",
-      "standard": false,
-      "crop": "50%",
-      "url": null
-    },
-    {
-      "title": "Likuiditas pembayaran",
-      "description": "Eksperimen penjadwalan pembayaran dengan kendala likuiditas.",
-      "label": "Pembayaran · Area eksperimen",
-      "standard": false,
-      "crop": "69%",
-      "url": null
-    },
-    {
-      "title": "ML-KEM",
-      "description": "Mekanisme enkapsulasi kunci.",
-      "label": "Standar kriptografi · FIPS 203",
-      "standard": true,
-      "crop": "31%",
-      "url": "https://csrc.nist.gov/pubs/fips/203/final"
-    },
-    {
-      "title": "ML-DSA",
-      "description": "Standar tanda tangan digital.",
-      "label": "Standar kriptografi · FIPS 204",
-      "standard": true,
-      "crop": "50%",
-      "url": "https://csrc.nist.gov/pubs/fips/204/final"
-    },
-    {
-      "title": "SLH-DSA",
-      "description": "Standar tanda tangan digital berbasis hash.",
-      "label": "Standar kriptografi · FIPS 205",
-      "standard": true,
-      "crop": "69%",
-      "url": "https://csrc.nist.gov/pubs/fips/205/final"
+      "alt": "Planet Bumi dalam foto The Blue Marble"
     }
   ],
   "milestones": [

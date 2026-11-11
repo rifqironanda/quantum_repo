@@ -9,31 +9,36 @@
         "title": "Valuasi opsi",
         "stage": "Demo perangkat",
         "summary": "Amplitude estimation diuji pada IBM Q Tokyo.",
-        "limit": "Demo sirkuit belum mengukur biaya atau kecepatan pricing operasional."
+        "limit": "Demo sirkuit belum mengukur biaya atau kecepatan pricing operasional.",
+        "source": null
       },
       {
         "year": 2023,
         "title": "Quantum Deep Hedging",
         "stage": "Demo perangkat",
         "summary": "Simulasi dan eksperimen trapped-ion untuk strategi lindung nilai.",
-        "limit": "Tidak ada bukti penggunaan pada posisi trading langsung."
+        "limit": "Tidak ada bukti penggunaan pada posisi trading langsung.",
+        "source": "https://quantum-journal.org/papers/q-2023-11-29-1191/"
       },
       {
         "year": 2024,
         "title": "Hybrid HHL++",
         "stage": "Demo perangkat",
         "summary": "Optimasi portofolio kecil pada Quantinuum H-series.",
-        "limit": "Keunggulan atas solver klasik belum ditetapkan."
+        "limit": "Keunggulan atas solver klasik belum ditetapkan.",
+        "source": null
       },
       {
         "year": 2026,
         "title": "Platform Quantum–AI",
         "stage": "Rencana diumumkan",
         "summary": "Platform riset OQC, AMD, dan JPMorgan untuk eksperimen kuantum, AI, dan HPC.",
-        "limit": "Tanggal merujuk pengumuman, bukan status operasi."
+        "limit": "Tanggal merujuk pengumuman, bukan status operasi.",
+        "source": null
       }
     ],
-    "security": "Strategi keamanan menggabungkan PQC dan QKD. Cakupan migrasi organisasi belum terbukti dalam kajian."
+    "security": "Strategi keamanan menggabungkan PQC dan QKD. Cakupan migrasi organisasi belum terbukti dalam kajian.",
+    "id": "jpmorgan-chase"
   },
   {
     "name": "HSBC",
@@ -45,14 +50,16 @@
         "title": "Kolaborasi IBM",
         "stage": "Pengumuman",
         "summary": "Akses perangkat, pelatihan, dan pengembangan kasus penggunaan.",
-        "limit": "Akses perangkat belum membuktikan kesiapan operasional."
+        "limit": "Akses perangkat belum membuktikan kesiapan operasional.",
+        "source": null
       },
       {
         "year": 2023,
         "title": "Quantum Multiple Kernel Learning",
         "stage": "Simulasi dan demo",
         "summary": "Simulasi pada data fraud HSBC dan demonstrasi IBM Auckland pada dataset bank marketing.",
-        "limit": "Dua cabang memakai dataset berbeda."
+        "limit": "Dua cabang memakai dataset berbeda.",
+        "source": null
       },
       {
         "year": 2025,
@@ -63,7 +70,8 @@
         "source": "https://www.hsbc.com/news-and-views/news/media-releases/2025/hsbc-demonstrates-worlds-first-known-quantum-enabled-algorithmic-trading-with-ibm"
       }
     ],
-    "security": "Pilot emas tokenisasi bersama Quantinuum menggunakan PQC. Bukti pilot terbatas pada lingkup pengujian."
+    "security": "Pilot emas tokenisasi bersama Quantinuum menggunakan PQC. Bukti pilot terbatas pada lingkup pengujian.",
+    "id": "hsbc"
   },
   {
     "name": "Barclays",
@@ -75,31 +83,36 @@
         "title": "IBM Q Network",
         "stage": "Kapasitas riset",
         "summary": "Chief Technology Office tercatat mengeksplorasi komputasi kuantum.",
-        "limit": "Partisipasi jaringan menunjukkan akses riset."
+        "limit": "Partisipasi jaringan menunjukkan akses riset.",
+        "source": null
       },
       {
         "year": 2019,
         "title": "Optimasi settlement Barclays–IBM",
-        "stage": "Simulasi dan demo",
+        "stage": "Pracetak 2019 · publikasi IEEE 2021",
         "summary": "Preprint mendokumentasikan algoritma variational dan optimasi klasik; uji perangkat mencakup kasus kecil.",
-        "limit": "Belum ada bukti penggunaan di settlement operasional."
+        "limit": "Belum ada bukti penggunaan di settlement operasional.",
+        "source": "https://tqe.ieee.org/2021/03/03/quantum-algorithms-for-mixed-binary-optimization-applied-to-transaction-settlement/"
       },
       {
         "year": 2023,
         "title": "Analog Iterative Machine",
         "stage": "Optik klasik",
         "summary": "Kolaborasi dengan Microsoft untuk formulasi settlement melalui komputasi optoelektronik.",
-        "limit": "AIM dan pengembangannya berada dalam satu keluarga riset optik."
+        "limit": "AIM dan pengembangannya berada dalam satu keluarga riset optik.",
+        "source": null
       },
       {
         "year": 2025,
         "title": "Analog Optical Computer",
         "stage": "Optik klasik",
         "summary": "Demonstrasi perangkat optik dan digital twin untuk optimasi, termasuk settlement.",
-        "limit": "Hasil PoC optik dilaporkan terpisah dari eksperimen QPU."
+        "limit": "Hasil PoC optik dilaporkan terpisah dari eksperimen QPU.",
+        "source": null
       }
     ],
-    "security": "Keikutsertaan Quantum Safe Financial Forum menunjukkan koordinasi kesiapan. Implementasi migrasi belum terverifikasi dalam kajian."
+    "security": "Keikutsertaan Quantum Safe Financial Forum menunjukkan koordinasi kesiapan. Implementasi migrasi belum terverifikasi dalam kajian.",
+    "id": "barclays"
   },
   {
     "name": "Wells Fargo",
@@ -111,31 +124,36 @@
         "title": "IBM Quantum Network",
         "stage": "Kapasitas riset",
         "summary": "Akses ekosistem perangkat untuk mengembangkan dan menguji algoritma.",
-        "limit": "Keanggotaan belum menetapkan penggunaan bisnis."
+        "limit": "Keanggotaan belum menetapkan penggunaan bisnis.",
+        "source": null
       },
       {
         "year": 2022,
         "title": "Quantum inner product",
         "stage": "Riset metode",
         "summary": "Pengembangan metode dengan aplikasi yang dikaji pada financial engineering.",
-        "limit": "Publikasi menunjukkan riset metode, dengan penggunaan bisnis yang masih perlu diverifikasi."
+        "limit": "Publikasi menunjukkan riset metode, dengan penggunaan bisnis yang masih perlu diverifikasi.",
+        "source": null
       },
       {
         "year": 2023,
         "title": "Spinoza",
         "stage": "Simulator klasik",
         "summary": "Simulator state kuantum untuk menguji sirkuit pada komputer klasik.",
-        "limit": "Kemampuan simulasi berbeda dari eksekusi pada QPU."
+        "limit": "Kemampuan simulasi berbeda dari eksekusi pada QPU.",
+        "source": "https://arxiv.org/abs/2303.01493"
       },
       {
         "year": 2025,
         "title": "Adaptive quantum channels",
         "stage": "Riset metode",
         "summary": "Penelitian kanal kuantum adaptif untuk model generatif bermemori panjang.",
-        "limit": "Pemakaian pada proses bisnis belum terverifikasi."
+        "limit": "Pemakaian pada proses bisnis belum terverifikasi.",
+        "source": null
       }
     ],
-    "security": "Partisipasi dalam konsorsium migrasi PQC NIST tercatat pada kajian."
+    "security": "Partisipasi dalam konsorsium migrasi PQC NIST tercatat pada kajian.",
+    "id": "wells-fargo"
   },
   {
     "name": "Goldman Sachs",
@@ -147,24 +165,28 @@
         "title": "Ambang keunggulan untuk valuasi derivatif",
         "stage": "Estimasi sumber daya",
         "summary": "Analisis kebutuhan komputasi agar pricing dapat dibandingkan dengan pendekatan klasik.",
-        "limit": "Ambang teoretis belum menunjukkan percepatan aktual."
+        "limit": "Ambang teoretis belum menunjukkan percepatan aktual.",
+        "source": "https://doi.org/10.22331/q-2021-06-01-463"
       },
       {
         "year": 2022,
         "title": "Low-depth amplitude estimation",
         "stage": "Demo perangkat",
         "summary": "Demonstrasi metode pada perangkat trapped-ion.",
-        "limit": "Demo komponen algoritma belum mencakup keseluruhan proses pricing."
+        "limit": "Demo komponen algoritma belum mencakup keseluruhan proses pricing.",
+        "source": null
       },
       {
         "year": 2023,
         "title": "Quantum interior-point methods",
         "stage": "Estimasi sumber daya",
         "summary": "Analisis end-to-end untuk metode interior-point dan optimasi portofolio.",
-        "limit": "Hasil bergantung pada asumsi model dan kemampuan perangkat."
+        "limit": "Hasil bergantung pada asumsi model dan kemampuan perangkat.",
+        "source": null
       }
     ],
-    "security": "Tahap 2.5 belum mendukung klaim pilot PQC atau migrasi seluruh organisasi."
+    "security": "Tahap 2.5 belum mendukung klaim pilot PQC atau migrasi seluruh organisasi.",
+    "id": "goldman-sachs"
   },
   {
     "name": "BBVA",
@@ -177,31 +199,35 @@
         "stage": "Quantum-inspired",
         "summary": "PoC Fujitsu menggunakan data historis untuk optimasi portofolio.",
         "limit": "Digital Annealer memakai komputasi klasik.",
-        "source": "https://info.archives.global.fujitsu/emeia/about/resources/news/press-releases/2020/emeai-20200529-bbva-bank-selects-fujitsu-s-quantum-inspired.html"
+        "source": "https://www.bbva.com/en/innovation/bbva-pursues-the-financial-sectors-quantum-advantage/"
       },
       {
         "year": 2021,
         "title": "Credit Valuation Adjustment",
         "stage": "Analisis numerik",
         "summary": "Amplitude estimation diteliti untuk valuasi risiko kredit pihak lawan.",
-        "limit": "Prospek percepatan dianalisis secara numerik."
+        "limit": "Prospek percepatan dianalisis secara numerik.",
+        "source": null
       },
       {
         "year": 2023,
         "title": "Optimasi pergerakan kas",
         "stage": "Riset metode",
         "summary": "MOVCO meneliti pengiriman dan penarikan kas dengan kendala.",
-        "limit": "Riset metode belum menetapkan penggunaan operasional."
+        "limit": "Riset metode belum menetapkan penggunaan operasional.",
+        "source": null
       },
       {
         "year": 2024,
         "title": "Qiskit terdistribusi di AWS",
         "stage": "Simulator klasik",
         "summary": "Pilot mensimulasikan rangkaian hingga 38 qubit pada server konvensional.",
-        "limit": "Angka tersebut merujuk qubit simulasi."
+        "limit": "Angka tersebut merujuk qubit simulasi.",
+        "source": null
       }
     ],
-    "security": "Keanggotaan QSFF dan pengungkapan risiko migrasi dicatat terpisah dari eksperimen pemanfaatan."
+    "security": "Keanggotaan QSFF dan pengungkapan risiko migrasi dicatat terpisah dari eksperimen pemanfaatan.",
+    "id": "bbva"
   },
   {
     "name": "Intesa Sanpaolo",
@@ -213,24 +239,28 @@
         "title": "Quantum Credit Risk Analysis",
         "stage": "Riset metode",
         "summary": "Model memperluas kerangka risiko kredit dengan beberapa faktor sistemik.",
-        "limit": "Cakupan model riset berbeda dari persetujuan operasional."
+        "limit": "Cakupan model riset berbeda dari persetujuan operasional.",
+        "source": "https://www.mdpi.com/1099-4300/25/4/593"
       },
       {
         "year": 2025,
         "title": "Fraud pada perangkat Aquila",
         "stage": "Demo perangkat",
         "summary": "Studi memakai simulator kuantum analog berbasis atom netral fisik dan emulator klasik.",
-        "limit": "Eksperimen perangkat menggunakan subset data."
+        "limit": "Eksperimen perangkat menggunakan subset data.",
+        "source": null
       },
       {
         "year": 2026,
         "title": "Partenope untuk risiko kredit",
         "stage": "Demo perangkat",
         "summary": "PoC persiapan distribusi pada model risiko kredit kecil.",
-        "limit": "Pengujian dua hingga tiga qubit membatasi kesimpulan tentang skala."
+        "limit": "Pengujian dua hingga tiga qubit membatasi kesimpulan tentang skala.",
+        "source": null
       }
     ],
-    "security": "Keikutsertaan QSFF mendukung bukti koordinasi. Riset RSA dengan metode quantum-inspired adalah pekerjaan terpisah."
+    "security": "Keikutsertaan QSFF mendukung bukti koordinasi. Riset RSA dengan metode quantum-inspired adalah pekerjaan terpisah.",
+    "id": "intesa-sanpaolo"
   },
   {
     "name": "OCBC",
@@ -242,24 +272,28 @@
         "title": "Sandbox OCBC–NQCH",
         "stage": "Demo sandbox",
         "summary": "Toolkit demonstrasi memakai dataset dan model kuantum.",
-        "limit": "Lingkungan demo berbeda dari sistem produksi."
+        "limit": "Lingkungan demo berbeda dari sistem produksi.",
+        "source": null
       },
       {
         "year": 2025,
         "title": "Valuasi derivatif bersama CQT",
         "stage": "Program riset",
         "summary": "Riset algoritma untuk mempercepat Monte Carlo dalam penilaian derivatif.",
-        "limit": "Rincian metode dan pembanding perlu dibaca per bukti."
+        "limit": "Rincian metode dan pembanding perlu dibaca per bukti.",
+        "source": "https://www.ocbc.com/group/media/release/2025/ocbc-deepens-research-in-quantum-technology-with-nus-ntu-smu"
       },
       {
         "year": 2026,
         "title": "Fraud kartu kredit dengan CVQBoosting",
         "stage": "Demo perangkat",
         "summary": "Pendekatan hibrida memakai prosesor fotonik Dirac-3.",
-        "limit": "Hasil eksperimen belum menetapkan manfaat pada deteksi fraud rutin."
+        "limit": "Hasil eksperimen belum menetapkan manfaat pada deteksi fraud rutin.",
+        "source": null
       }
     ],
-    "security": "Preprint Mei 2026 mencatat ML-KEM dan pertukaran kunci hibrida untuk aplikasi internal pada web server dan API gateway. Lingkupnya terbatas."
+    "security": "Preprint Mei 2026 mencatat ML-KEM dan pertukaran kunci hibrida untuk aplikasi internal pada web server dan API gateway. Lingkupnya terbatas.",
+    "id": "ocbc"
   },
   {
     "name": "UOB",
@@ -279,10 +313,12 @@
         "title": "Estimasi kejadian langka",
         "stage": "Program riset",
         "summary": "Program QEP melibatkan UOB untuk pemodelan kejadian finansial langka.",
-        "limit": "Tahun dan hasil uji khusus UOB belum ditetapkan di sini."
+        "limit": "Tahun dan hasil uji khusus UOB belum ditetapkan di sini.",
+        "source": null
       }
     ],
-    "security": "Bukti keamanan yang dirinci adalah sandbox QKD MAS 2025. QKD merupakan jalur tersendiri dari migrasi PQC."
+    "security": "Bukti keamanan yang dirinci adalah sandbox QKD MAS 2025. QKD merupakan jalur tersendiri dari migrasi PQC.",
+    "id": "uob"
   },
   {
     "name": "ICBC",
@@ -294,30 +330,35 @@
         "title": "Portofolio obligasi dan valuasi opsi",
         "stage": "Simulator klasik",
         "summary": "Laporan semester pertama menyebut evaluasi kelayakan berbasis simulator.",
-        "limit": "Hasil optimasi dan keunggulan terhadap pembanding belum terbuka."
+        "limit": "Hasil optimasi dan keunggulan terhadap pembanding belum terbuka.",
+        "source": null
+      },
+      {
+        "year": 2024,
+        "title": "Risiko gagal bayar obligasi",
+        "stage": "Uji pada simulator",
+        "summary": "Tim ICBC menguji quantum graph neural network untuk peringatan dini gagal bayar obligasi dalam lingkungan simulator.",
+        "limit": "Artikel tim melaporkan uji simulator. Kinerja di perangkat kuantum fisik dan penerapan rutin belum ditunjukkan.",
+        "source": "https://www.fcc.com.cn/art/kjzx/73/12068.shtml"
       },
       {
         "year": 2026,
         "title": "Validasi valuasi opsi",
         "stage": "Bukti sekunder",
         "summary": "Laporan industri menyebut range-accrual options dan Asian options.",
-        "limit": "Rincian algoritma dan hasil perlu diverifikasi pada laporan eksperimen asli."
+        "limit": "Rincian algoritma dan hasil perlu diverifikasi pada laporan eksperimen asli.",
+        "source": null
       },
       {
         "year": 2026,
         "title": "Arah riset komputasi",
         "stage": "Arah yang dilaporkan",
         "summary": "Jangka dekat quantum-inspired dan tensor network, jangka menengah fotonik, jangka panjang komputasi kuantum universal.",
-        "limit": "Arah dan proyeksi berbeda dari tonggak implementasi."
-      },
-      {
-        "year": null,
-        "title": "Risiko gagal bayar obligasi",
-        "stage": "Simulator klasik",
-        "summary": "Quantum GNN diuji pada dataset obligasi 2022 menggunakan simulator.",
-        "limit": "Tahun dataset bukan tahun eksperimen. Hasil perlu dibandingkan dengan model klasik yang setara."
+        "limit": "Arah dan proyeksi berbeda dari tonggak implementasi.",
+        "source": null
       }
     ],
-    "security": "Laporan semester pertama 2024 mencatat pengujian pada tanda tangan digital dan enkripsi transport."
+    "security": "Laporan semester pertama 2024 mencatat pengujian pada tanda tangan digital dan enkripsi transport.",
+    "id": "icbc"
   }
 ]

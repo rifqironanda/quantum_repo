@@ -13,7 +13,14 @@ export default function App() {
   const showEvolution = hash === '#perkembangan-kuantum' || hash.startsWith('#perkembangan-kuantum/');
 
   useEffect(() => {
-    const onChange = () => setHash(window.location.hash);
+    function onChange() {
+      const current = window.location.hash;
+      const hash = current.replace(/^#konsep-dan-perkembangan(?=\/|$)/, '#perkembangan-kuantum');
+      if (hash !== current) window.history.replaceState(null, '', hash);
+      setHash(hash);
+    }
+
+    onChange();
     window.addEventListener('hashchange', onChange);
     return () => window.removeEventListener('hashchange', onChange);
   }, []);
@@ -81,7 +88,7 @@ export default function App() {
       <SiteHeader />
 
       {showUtilization ? (
-        <UtilizationPage />
+        <UtilizationPage bankId={hash.split('/')[2]} />
       ) : showResilience ? (
         <ResiliencePage />
       ) : showEvolution ? (

@@ -1,4 +1,4 @@
-.qr-page section[id], .qr-page #ketahanan-kuantum\/paparan { scroll-margin-top: 24px; }
+.qr-page section[id], .qu-page [id], .qr-page #ketahanan-kuantum\/paparan { scroll-margin-top: 24px; }
 .qr-follow-up { margin-top: 12px; }
 .qr-asset-stage { position: relative; }
 .qr-asset-track {
@@ -68,13 +68,10 @@
 .qr-asset-dialog::backdrop { background: #10183190; }
 .qr-asset-dialog form { display: flex; justify-content: end; margin-bottom: 12px; }
 .qr-asset-dialog h3 { font-size: 1.5rem; margin-bottom: 10px; }
-.qr-document-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
-.qr-document { padding: clamp(16px, 2.5vw, 26px); }
-.qr-document h3 { font-size: clamp(1.2rem, 2.4vw, 1.62rem); line-height: 1.2; }
-.qr-document h3 + p { margin-top: 8px; color: var(--muted); }
-.qr-asset-link { display: inline-block; margin-top: 12px; font-weight: 700; }
+.qr-card-actions { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.qr-card-source { color: #fff; font-weight: 700; text-decoration: underline; }
+.qr-document-title { padding: 12px 18px; font-weight: 700; }
 @media (max-width: 730px) {
-  .qr-document-grid { grid-template-columns: 1fr; }
   .qr-asset-track { gap: 12px; }
   .qr-asset-card { flex-basis: 88%; min-height: 380px; aspect-ratio: 3 / 4; }
   .qr-card-copy { padding: 22px; }

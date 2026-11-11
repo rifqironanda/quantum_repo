@@ -709,3 +709,13 @@ tbody th {
     transition: none;
   }
 }
+
+.geo-controls { display: flex; flex-wrap: wrap; gap: 8px; }
+.geo-controls button { padding: 7px 12px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--ink); }
+.geo-controls button[aria-pressed="true"] { background: #253caf; color: #fff; }
+.geo-detail { padding: 0 18px 18px; }
+.geo-detail dl { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap: 16px; margin: 12px 0 0; }
+.geo-detail dt { font-weight: 750; margin-bottom: 5px; }
+.geo-detail dd { margin: 0; }
+.geo-detail ul { margin: 0; padding-inline-start: 18px; }
+.geo-detail a { text-decoration: underline; }

@@ -60,3 +60,10 @@ Isi nilai kosong di `googleLinks.json` dengan tautan dokumen yang sesuai. Tautan
 ```bash
 npm test
 ```
+
+## Publikasi ke GitHub Pages
+
+Pada **Settings → Pages → Build and deployment**, pilih **GitHub Actions**.
+Workflow **Publish Quantum Banking** menjalankan tes, membangun Vite, dan menerbitkan folder `dist` saat ada push ke `main`. Workflow juga bisa dijalankan dari tab **Actions**.
+
+Untuk grafik live, tambahkan `VITE_RESEARCH_SHEET_CSV_URL` sebagai repository variable di **Settings → Secrets and variables → Actions → Variables**. Gunakan URL CSV publik khusus data yang layak diterbitkan. Build akan menggunakan snapshot lokal jika variable kosong.

@@ -93,88 +93,54 @@
       "anchor": "ketahanan-kuantum/bagian-kajian"
     },
     {
-      "id": "dokumen",
-      "type": "documentList",
-      "title": "Dokumen penting",
-      "items": [
-        {
-          "id": "urutan-kajian",
-          "title": "Urutan Kajian Ketahanan Kuantum",
-          "text": "Alur kajian dari dasar ancaman, risiko dan benchmark hingga mitigasi, pengawasan, dan audit.",
-          "format": "docs",
-          "href": null
-        },
-        {
-          "id": "ringkasan-slides",
-          "title": "Ringkasan Kajian Ketahanan Kuantum",
-          "text": "Materi presentasi tentang dua level risiko, benchmark, dan implikasi untuk perbankan.",
-          "format": "slides",
-          "href": null
-        },
-        {
-          "id": "matriks-sheets",
-          "title": "Matriks Bukti dan Prioritas",
-          "text": "Daftar sumber, status bukti penggunaan kriptografi, dan matriks prioritas mitigasi.",
-          "format": "sheets",
-          "href": null
-        }
-      ],
-      "anchor": "ketahanan-kuantum/dokumen"
-    },
-    {
       "id": "produk-kajian",
       "type": "carousel",
       "title": "Produk kajian dan panduan",
-      "text": "Buka ringkasan setiap produk, lalu lanjutkan ke versi lengkap melalui Eksplorasi di homepage.",
+      "text": "Lima topik panduan kajian dengan rujukan publik untuk inventarisasi, prioritas, migrasi, dan pengawasan.",
       "items": [
         {
           "id": "peta-paparan",
           "title": "Peta Paparan Kriptografi Perbankan",
           "text": "Telusuri kaitan produk dan layanan dengan fungsi kriptografi serta status buktinya.",
-          "cta": {
-            "label": "Lihat versi lengkap",
-            "href": null,
-            "explorationId": "peta-paparan"
+          "source": {
+            "label": "Strategi inventarisasi kriptografi · CISA",
+            "href": "https://www.cisa.gov/sites/default/files/2024-09/Strategy-for-Migrating-to-Automated-PQC-Discovery-and-Inventory-Tools.pdf"
           }
         },
         {
           "id": "benchmark",
           "title": "Benchmark Ketahanan Kuantum",
           "text": "Bandingkan instrumen internasional, pihak yang dituju, dan relevansinya untuk bank Indonesia.",
-          "cta": {
-            "label": "Lihat versi lengkap",
-            "href": null,
-            "explorationId": "benchmark"
+          "source": {
+            "label": "Roadmap sektor keuangan · BIS",
+            "href": "https://www.bis.org/publications/paper-158-quantum-readiness-financial-system-roadmap"
           }
         },
         {
           "id": "prioritas",
           "title": "Panduan Prioritas dan Tata Kelola",
           "text": "Gunakan kriteria urgensi, kekritisan layanan, dan risiko perubahan untuk menentukan tindak lanjut.",
-          "cta": {
-            "label": "Lihat versi lengkap",
-            "href": null,
-            "explorationId": "prioritas"
+          "source": {
+            "label": "Panduan kesiapan · CISA, NSA dan NIST",
+            "href": "https://www.cisa.gov/sites/default/files/2023-08/Quantum-Readiness%20-%20Migration%20to%20Post-Quantum%20Cryptography_508c.pdf"
           }
         },
         {
           "id": "migrasi-pqc",
           "title": "Panduan Migrasi PQC",
           "text": "Ikuti tahapan dari inventarisasi dan uji coba hingga penerapan bertahap, dengan kriteria keputusan pada tiap tahap.",
-          "cta": {
-            "label": "Lihat versi lengkap",
-            "href": null,
-            "explorationId": "migrasi-pqc"
+          "source": {
+            "label": "Panduan migrasi · NCSC",
+            "href": "https://www.ncsc.gov.uk/guidance/pqc-migration-timelines"
           }
         },
         {
           "id": "pengawasan-audit",
           "title": "Panduan Pengawasan dan Audit",
-          "text": "Gunakan indikator, daftar bukti, dan kriteria penutupan temuan untuk menilai jalannya migrasi.",
-          "cta": {
-            "label": "Lihat versi lengkap",
-            "href": null,
-            "explorationId": "pengawasan-audit"
+          "text": "Tinjau temuan interoperabilitas dan performa dari uji pembayaran Project Leap sebagai masukan untuk indikator pengawasan migrasi.",
+          "source": {
+            "label": "Bukti uji pembayaran · BIS Project Leap",
+            "href": "https://www.bis.org/publications/project-leap-phase-2-quantum-proofing-payment-systems"
           }
         }
       ],
@@ -223,13 +189,13 @@
       "id": "respons-negara",
       "anchor": "ketahanan-kuantum/respons-negara",
       "type": "references",
-      "title": "Respons negara dan kawasan",
+      "title": "Benchmark internasional",
       "text": "Bandingkan jenis instrumen dan pihak yang dituju sebelum menarik implikasi untuk bank Indonesia.",
       "items": [
         {
           "id": "us",
           "title": "Amerika Serikat",
-          "text": "NIST IR 8547 final menjelaskan pendekatan transisi dari algoritma rentan menuju standar PQC. Dokumen juga mendukung prioritas migrasi sistem sensitif pada lembaga federal AS.",
+          "text": "NIST IR 8547 menjelaskan transisi dari algoritma rentan menuju skema pembentukan kunci dan tanda tangan pascakuantum dalam standar NIST.",
           "source": {
             "label": "Buka NIST IR 8547",
             "href": "https://csrc.nist.gov/pubs/ir/8547/final"
@@ -265,13 +231,18 @@
             "href": "https://digital-strategy.ec.europa.eu/en/library/coordinated-implementation-roadmap-transition-post-quantum-cryptography"
           },
           "scope": "Uni Eropa · Roadmap koordinasi"
+        },
+        {
+          "id": "sg",
+          "title": "Singapura",
+          "text": "MAS menerbitkan advisory untuk lembaga keuangan tentang risiko siber kuantum. Kolaborasi dengan bank juga menguji distribusi kunci kuantum (QKD).",
+          "scope": "MAS · Advisory dan kolaborasi",
+          "source": {
+            "label": "Buka rilis MAS",
+            "href": "https://www.mas.gov.sg/news/media-releases/2024/mas-collaborates-with-banks-and-technology-partners-on-quantum-security"
+          }
         }
       ]
     }
-  ],
-  "integration": {
-    "homepageExplorationHref": "#eksplorasi",
-    "documentLinks": "Isi href dengan URL dokumen. Tampilkan status Tautan belum tersedia selama href bernilai null.",
-    "explorationLinks": "Cocokkan explorationId dengan ID item di Eksplorasi pada homepage. Isi cta.href dengan rute versi lengkap setiap produk dan homepageExplorationHref dengan tautan ke bagian Eksplorasi. Tampilkan CTA setelah rute tersedia."
-  }
+  ]
 }

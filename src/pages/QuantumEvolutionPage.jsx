@@ -126,15 +126,15 @@ function QubitLab() {
 
 export default function QuantumEvolutionPage() {
   return (
-    <main className="qe-page" id="konsep-dan-perkembangan">
+    <main className="qe-page" id="perkembangan-kuantum">
       <section className="qe-hero" aria-labelledby="qe-title" style={{ '--qe-photo': `url("${media.dwave.src}")` }}>
         <div className="qe-wrap qe-hero-inner">
           <p className="qe-kicker">Kajian Quantum Banking · Dasar kuantum</p>
           <h1 id="qe-title" tabIndex={-1}>Perkembangan<br /> Quantum Computing</h1>
           <p>Fondasi · Konsep · Algoritma · Hardware · Cloud · Advantage · AI Application</p>
           <div className="qe-actions">
-            <a className="qe-button" href="#konsep-dan-perkembangan/teknologi">Jelajahi timeline</a>
-            <a className="qe-button qe-outline" href="#konsep-dan-perkembangan/konsep">Coba demo</a>
+            <a className="qe-button" href="#perkembangan-kuantum/teknologi">Jelajahi timeline</a>
+            <a className="qe-button qe-outline" href="#perkembangan-kuantum/konsep">Coba demo</a>
           </div>
         </div>
         <p className="qe-hero-credit">
@@ -144,7 +144,7 @@ export default function QuantumEvolutionPage() {
       </section>
 
       <div className="qe-wrap">
-        <section className="qe-section" id="konsep-dan-perkembangan/teknologi" aria-labelledby="qe-technology">
+        <section className="qe-section" id="perkembangan-kuantum/teknologi" aria-labelledby="qe-technology">
           <p className="qe-kicker">01 · Timeline teknologi</p>
           <h2 id="qe-technology">Perkembangan Teknologi Quantum Computing</h2>
           <p className="qe-intro">Pilih topik, gunakan panah, atau geser slide di HP. Foto dan ilustrasi memberi konteks visual, sedangkan tautan di tiap slide merujuk pada kajiannya.</p>
@@ -164,7 +164,7 @@ export default function QuantumEvolutionPage() {
           </Carousel>
         </section>
 
-        <section className="qe-section" id="konsep-dan-perkembangan/konsep" aria-labelledby="qe-concepts">
+        <section className="qe-section" id="perkembangan-kuantum/konsep" aria-labelledby="qe-concepts">
           <p className="qe-kicker">02 · Konsep dan cara kerja</p>
           <h2 id="qe-concepts">Dari bit klasik ke qubit</h2>
           <p className="qe-intro">Komputer kuantum memakai amplitudo untuk merepresentasikan keadaan. Gerbang mengubah amplitudo tersebut, dan pengukuran menghasilkan nilai klasik.</p>
@@ -185,7 +185,7 @@ export default function QuantumEvolutionPage() {
           </article>
         </section>
 
-        <section className="qe-section" id="konsep-dan-perkembangan/industri" aria-labelledby="qe-industry">
+        <section className="qe-section" id="perkembangan-kuantum/industri" aria-labelledby="qe-industry">
           <p className="qe-kicker">03 · Industri dan perkembangan</p>
           <h2 id="qe-industry">Siapa yang membangun dan menyediakan akses?</h2>
           <p className="qe-intro">Kartu membedakan peran pengembang perangkat, penyedia akses cloud, dan tim riset. Buka sumber resmi untuk menelusuri produk serta cakupannya.</p>

@@ -1,7 +1,16 @@
 {
-  "slides": { "openUrl": "", "embedUrl": "" },
-  "docs": { "openUrl": "https://docs.google.com/document/d/1eekxdkktfaRyaX3A-m6IBD4HlUy87320TSzuFasbsSM/edit?usp=sharing", "embedUrl": "" },
-  "sheets": { "openUrl": "", "embedUrl": "" }
+  "slides": {
+    "title": "Kajian Quantum Computing Perbankan — Ringkas",
+    "openUrl": "https://docs.google.com/presentation/d/1yOX562N23dMO8fg935RixzPQxPEMg6PWgSK6shwxhrY/edit?usp=drivesdk",
+    "embedUrl": "https://docs.google.com/presentation/d/1yOX562N23dMO8fg935RixzPQxPEMg6PWgSK6shwxhrY/preview"
+  },
+  "docs": {
+    "openUrl": "https://docs.google.com/document/d/1eekxdkktfaRyaX3A-m6IBD4HlUy87320TSzuFasbsSM/edit?usp=sharing",
+    "embedUrl": "https://docs.google.com/document/d/1eekxdkktfaRyaX3A-m6IBD4HlUy87320TSzuFasbsSM/preview",
+    "title": "Kajian Quantum Computing untuk Ketahanan Transformasi Digital Perbankan"
+  },
+  "sheets": {
+    "openUrl": "",
+    "embedUrl": ""
+  }
 }
-
-
